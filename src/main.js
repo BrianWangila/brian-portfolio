@@ -1,4 +1,10 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+
+const spa = createApp(App)
+
+
+spa.mount('#app')
+
+
