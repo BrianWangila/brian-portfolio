@@ -1,6 +1,6 @@
 <template>
     <main>
-        <h1>My Portfolio</h1>
+        <SideNav />
     </main>
 </template>
 
@@ -8,9 +8,13 @@
 
 
 <script>
+    import SideNav from './SideNav.vue';
 
     export default {
         name: "HomePage",
+        components: {
+            SideNav,
+        }
     }
 
 
