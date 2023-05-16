@@ -1,26 +1,27 @@
-<template>
-    <main>
-        <HomePage />
-    </main>
-</template>
-
-
-
-
 
 <script>
-    import HomePage from './components/HomePage.vue';
+    import SideNav from './components/SideNav.vue';
 
     export default {
         name: "App",
+
         components: {
-            HomePage
+            SideNav,
         }
 
     }
 
 </script>
 
+
+
+
+
+<template>
+    <router-view />
+    <SideNav />
+    
+</template>
 
 
 
